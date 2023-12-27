@@ -1,7 +1,8 @@
-import React from "react";
+// import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css'
 import Home from "./components/Home/Home"
+import Product from "./components/Product/Product.jsx"
 import Error404 from "./components/Error/404"
 import Header from "./components/Widgets/Header/Nav"
 import Footer from "./components/Widgets/Footer/Footer"
@@ -15,6 +16,7 @@ function App() {
             <Routes>
                 <Route index element={<Home />} />
                 <Route path="/" element={<Home />}>
+                <Route path="/product" element={<Product />} />
                 <Route path="*" element={<Error404 />} />
                 </Route>
             </Routes>

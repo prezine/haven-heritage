@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'avenir-light'; 
+    src: url("./../fonts/avenir_lt/Avenir LT Std 35 Light.otf") format("opentype");
+}
+@font-face {
+    font-family: 'avenir-book-oblique'; 
+    src: url("./../fonts/avenir_lt/Avenir LT Std 45 Book Oblique.otf") format("opentype");
+}
+@font-face {
+    font-family: 'avenir-book'; 
+    src: url("./../fonts/avenir_lt/Avenir LT Std 45 Book.otf") format("opentype");
+}
+@font-face {
+    font-family: 'avenir-oblique'; 
+    src: url("./../fonts/avenir_lt/Avenir LT Std 55 Oblique.otf") format("opentype");
+}
+@font-face {
+    font-family: 'avenir-roman'; 
+    src: url("./../fonts/avenir_lt/Avenir LT Std 55 Roman.otf") format("opentype");
+}
+@font-face {
+    font-family: 'avenir-medium-oblique'; 
+    src: url("./../fonts/avenir_lt/Avenir LT Std 65 Medium Oblique.otf") format("opentype");
+}
+@font-face {
+    font-family: 'avenir-medium'; 
+    src: url("./../fonts/avenir_lt/Avenir LT Std 65 Medium.otf") format("opentype");
+}
+@font-face {
+    font-family: 'avenir-heavy-oblique'; 
+    src: url("./../fonts/avenir_lt/Avenir LT Std 85 Heavy Oblique.otf") format("opentype");
+}
+@font-face {
+    font-family: 'avenir-heavy'; 
+    src: url("./../fonts/avenir_lt/Avenir LT Std 85 Heavy.otf") format("opentype");
+}
+@font-face {
+    font-family: 'avenir-black-oblique'; 
+    src: url("./../fonts/avenir_lt/Avenir LT Std 95 Black Oblique.otf") format("opentype");
+}
+@font-face {
+    font-family: 'avenir-black'; 
+    src: url("./../fonts/avenir_lt/Avenir LT Std 95 Black.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'plus-jakarta-sans-bold';
+    src: url('./../fonts/plusjakartasans/PlusJakartaSans-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'plus-jakarta-sans-bold-italic';
+    src: url('./../fonts/plusjakartasans/PlusJakartaSans-BoldItalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'plus-jakarta-sans-extra-bold';
+    src: url('./../fonts/plusjakartasans/PlusJakartaSans-ExtraBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'plus-jakarta-sans-extra-light';
+    src: url('./../fonts/plusjakartasans/PlusJakartaSans-ExtraLight.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'plus-jakarta-sans-extra-light-italic';
+    src: url('./../fonts/plusjakartasans/PlusJakartaSans-ExtraLightItalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'plus-jakarta-sans-italic';
+    src: url('./../fonts/plusjakartasans/PlusJakartaSans-Italic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'plus-jakarta-sans-light';
+    src: url('./../fonts/plusjakartasans/PlusJakartaSans-Light.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'plus-jakarta-sans-light-italic';
+    src: url('./../fonts/plusjakartasans/PlusJakartaSans-LightItalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'plus-jakarta-sans-medium';
+    src: url('./../fonts/plusjakartasans/PlusJakartaSans-Medium.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'plus-jakarta-sans-medium-italic';
+    src: url('./../fonts/plusjakartasans/PlusJakartaSans-MediumItalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'plus-jakarta-sans-regular';
+    src: url('./../fonts/plusjakartasans/PlusJakartaSans-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'plus-jakarta-sans-semi-bold';
+    src: url('./../fonts/plusjakartasans/PlusJakartaSans-SemiBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'plus-jakarta-sans-semi-bold-italic';
+    src: url('./../fonts/plusjakartasans/PlusJakartaSans-SemiBoldItalic.ttf') format('truetype');
+}
