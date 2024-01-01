@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@types/react-router": "^5.1.20",
     "gsap": "^3.11.5",
     "jquery": "^3.6.3",
     "number-formatter": "^1.2.0",
