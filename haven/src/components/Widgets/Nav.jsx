@@ -10,6 +10,8 @@ import thumbnail from '/images/product/cart-product-1.png'
 function Header() {
   const [isHidden, setIsHidden] = useState(true);
   const [isVisible, setIsVisible] = useState(true);
+  const [isDropDown, setIsDropDown] = useState(true);
+  
 
   const toggleProfile = () => {
     setIsHidden(!isHidden);
@@ -19,6 +21,11 @@ function Header() {
   const toggleCart = () => {
     setIsVisible(!isVisible);
     console.log('Open Cart Modal');
+  };
+
+  const toggleHamburger = () => {
+    setIsDropDown(!isDropDown);
+    console.log('Open Mobile Menu');
   };
 
   const cartData = [
@@ -122,13 +129,23 @@ function Header() {
               </div>
             </div>
           </div>
+
+          {/* Mobile Desig Dropdown */}
+          <div className={`bg-brandGray50 z-70 rounded-md shadow-sm w-full h-254 right-0 top-24 absolute p-12 text-left ${isDropDown ? 'hidden' : ''}`}>
+            <span className="text-brandGray600 font-PlusJakartaSansMedium space-y-4">
+              <NavLink to="/" className="block cursor-pointer">Home</NavLink>
+              <NavLink to="/product" className="block cursor-pointer">Products</NavLink>
+              <NavLink to="/about" className="block cursor-pointer">About</NavLink>
+              <NavLink to="/contact" className="block cursor-pointer">Contact</NavLink>
+            </span>
+          </div>
         
           <div class="flex justify-between w-full xl:hidden">
             <div className="flex items-center flex-shrink-0 mr-6">
               <NavLink to="/"><img src={Logo} alt="" /></NavLink>
             </div>
 
-            <button id="hamburger" title="Open Mobile Menu" type="button" className="space-y-1 group cursor-pointer">
+            <button id="hamburger" onClick={toggleHamburger} title="Open Mobile Menu" type="button" className="space-y-1 group cursor-pointer">
                 <div class="h-1 w-8 hamburger-line bg-black rounded-lg group-hover:bg-brandBlue transition-all ease-linear duration-300"></div>
                 <div class="h-1 w-8 hamburger-line bg-black rounded-lg group-hover:bg-brandBlue transition-all ease-linear duration-300"></div>
                 <div class="h-1 w-8 hamburger-line bg-black rounded-lg group-hover:bg-brandBlue transition-all ease-linear duration-300"></div>
