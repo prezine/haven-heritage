@@ -27,3 +27,9 @@
   background:rgba(0,0,0,0.4);
   /* filter:blur(4px); */
 }
+ 
+ ul li a.active {
+  color: #0B0B0B;
+  font-weight: 900;
+  font-family: plus-jakarta-sans-semi-bold;
+ } 

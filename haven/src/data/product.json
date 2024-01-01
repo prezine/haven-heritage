@@ -1,0 +1,78 @@
+[
+    {
+        "_id": 1,
+		"image": "http://localhost:5173/src/assets/images/product/product-1.png",
+		"title": "Agbada Attire",
+		"slug": "agbada-attire",
+		"amount": 23565.00,
+        "rating": 3,
+        "reviewscount": 29,
+        "category": "latest",
+        "avatar": "http://localhost:5173/src/assets/images/testimonials/Frame%20107-2.png",
+        "name": "Precious Tom",
+        "description": "Lorem ipsum dolor sit amet consectetur. Vel laoreet molestie cursus sodales id mauris pulvinar massa venenatis. Lobortis vulputate lectus sagittis aliquet integer aenean lectus mattis ut. Lorem lectus feugiat semper est dignissim. At ipsum vestibulum imperdiet sapien orci turpis vulputate.",
+		"thumnails": {
+            "1": null,
+            "2": null,
+            "3": null,
+            "4": null
+        }
+	},
+    {
+        "_id": 2,
+		"image": "http://localhost:5173/src/assets/images/product/product-2.jpg",
+		"title": "Robe Material",
+		"slug": "robe-material",
+		"amount": 23565.00,
+        "rating": 3,
+        "reviewscount": 29,
+        "category": "latest",
+        "avatar": "http://localhost:5173/src/assets/images/testimonials/Frame%20107-2.png",
+        "name": "Precious Tom",
+        "description": "Lorem ipsum dolor sit amet consectetur. Vel laoreet molestie cursus sodales id mauris pulvinar massa venenatis. Lobortis vulputate lectus sagittis aliquet integer aenean lectus mattis ut. Lorem lectus feugiat semper est dignissim. At ipsum vestibulum imperdiet sapien orci turpis vulputate.",
+		"thumnails": {
+            "1": null,
+            "2": null,
+            "3": null,
+            "4": null
+        }
+	},
+    {
+        "_id": 3,
+		"image": "http://localhost:5173/src/assets/images/product/product-3.jpg",
+		"title": "Native Pope Cap",
+		"slug": "native-pope-cap",
+		"amount": 23565.00,
+        "rating": 3,
+        "reviewscount": 29,
+        "category": "latest",
+        "avatar": "http://localhost:5173/src/assets/images/testimonials/Frame%20107-2.png",
+        "name": "Precious Tom",
+        "description": "Lorem ipsum dolor sit amet consectetur. Vel laoreet molestie cursus sodales id mauris pulvinar massa venenatis. Lobortis vulputate lectus sagittis aliquet integer aenean lectus mattis ut. Lorem lectus feugiat semper est dignissim. At ipsum vestibulum imperdiet sapien orci turpis vulputate.",
+		"thumnails": {
+            "1": null,
+            "2": null,
+            "3": null,
+            "4": null
+        }
+	},
+    {
+        "_id": 4,
+		"image": "http://localhost:5173/src/assets/images/product/product-4.png",
+		"title": "Ankara Gown",
+		"slug": "ankara-gown",
+		"amount": 23565.00,
+        "rating": 3,
+        "reviewscount": 29,
+        "category": "latest",
+        "avatar": "http://localhost:5173/src/assets/images/testimonials/Frame%20107-2.png",
+        "name": "Precious Tom",
+        "description": "Lorem ipsum dolor sit amet consectetur. Vel laoreet molestie cursus sodales id mauris pulvinar massa venenatis. Lobortis vulputate lectus sagittis aliquet integer aenean lectus mattis ut. Lorem lectus feugiat semper est dignissim. At ipsum vestibulum imperdiet sapien orci turpis vulputate.",
+		"thumnails": {
+            "1": null,
+            "2": null,
+            "3": null,
+            "4": null
+        }
+	}
+]

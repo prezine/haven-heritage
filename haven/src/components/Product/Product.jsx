@@ -1,11 +1,16 @@
 import React from "react";
 // import { useState } from 'react'
+import Products from './../Home/Products.jsx'
+import ProductHero from './ProductHero.jsx'
+import ProductControls from './ProductControls.jsx'
 import '../../App.css'
 
 function Product() {
   return (
     <>
-      <h1>Product Page</h1>
+      <ProductHero />
+      <ProductControls />
+      <Products />
     </>
   )
 }

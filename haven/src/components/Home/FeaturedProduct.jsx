@@ -8,7 +8,7 @@ import FootwareImage from './../../assets/images/product/product-3.jpg'
 
 function FeaturedProduct() {
     return (
-        <section className="w-full grid grid-cols-4 gap-4 p-12 items-center">
+        <section className="w-full grid lg:grid-cols-4 gap-4 p-12 items-center">
             <div>
                 <p className="text-brandGray900 font-PlusJakartaSansRegular text-left">Over 500+ <br /> unique products</p>
             </div>

@@ -5,7 +5,9 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
     "./src/components/**/*.{js,ts,jsx,tsx}",
     "./src/components/Home/*.{js,ts,jsx,tsx}",
+    "./src/components/Product/*.{js,ts,jsx,tsx}",
     "./src/components/Error/*.{js,ts,jsx,tsx}",
+    "./src/components/Widgets/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
@@ -16,6 +18,7 @@ export default {
         brandGray300: "#D4D4D8",
         brandGray200: "#E4E4E7",
         brandGray100: "#AAAAAA",
+        brandGray50: "#FAFAFA",
         brandGray10: "#D9D9D9",
         brandGreen: "#00484F",
         brandGreenLight: "#C5EE4F",

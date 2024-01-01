@@ -10,9 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "gsap": "^3.11.5",
+    "jquery": "^3.6.3",
     "number-formatter": "^1.2.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
     "react-fast-marquee": "^1.6.2",
     "react-rating": "^2.0.5",
     "swiper": "^11.0.5"

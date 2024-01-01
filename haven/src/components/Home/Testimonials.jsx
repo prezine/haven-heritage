@@ -6,13 +6,16 @@ import '../../App.css'
 import '../../assets/css/font.css'
 import TestimonialCard from './../Element/TestimonialCard.jsx'
 import Newsletters from './Newsletters.jsx'
+import Avatar1 from './../../assets/images/testimonials/Frame 107-1.png'
+import Avatar2 from './../../assets/images/testimonials/Frame 107-2.png'
+import Avatar3 from './../../assets/images/testimonials/Frame 107.png'
 
 function Testimonials() {
     const testimonialData = [
-        { avatar: '/../../assets/images/testimonials/Frame 107-1.png', name: 'Precious Tom', country: "Nigeria 🇳🇬", testimonial: "The quality and beauty of the products exceeded my expectations. HeritageHaven truly captures the essence of African fashion." },
-        { avatar: '/../../assets/images/testimonials/Frame 107-2.png', name: 'Micah Tom', country: "Nigeria 🇳🇬", testimonial: "The quality and beauty of the products exceeded my expectations. HeritageHaven truly captures the essence of African fashion." },
-        { avatar: '/../../assets/images/testimonials/Frame 107-3.png', name: 'Faith Joseph', country: "Nigeria 🇳🇬", testimonial: "The quality and beauty of the products exceeded my expectations. HeritageHaven truly captures the essence of African fashion." },
-        { avatar: '/../../assets/images/testimonials/Frame 107-1.png', name: 'Aavesh Jalani', country: "India 🇮🇳", testimonial: "The quality and beauty of the products exceeded my expectations. HeritageHaven truly captures the essence of African fashion." },
+        { avatar: Avatar1, name: 'Precious Tom', country: "Nigeria 🇳🇬", testimonial: "The quality and beauty of the products exceeded my expectations. HeritageHaven truly captures the essence of African fashion." },
+        { avatar: Avatar2, name: 'Micah Tom', country: "Nigeria 🇳🇬", testimonial: "The quality and beauty of the products exceeded my expectations. HeritageHaven truly captures the essence of African fashion." },
+        { avatar: Avatar3, name: 'Faith Joseph', country: "Nigeria 🇳🇬", testimonial: "The quality and beauty of the products exceeded my expectations. HeritageHaven truly captures the essence of African fashion." },
+        { avatar: Avatar1, name: 'Aavesh Jalani', country: "India 🇮🇳", testimonial: "The quality and beauty of the products exceeded my expectations. HeritageHaven truly captures the essence of African fashion." },
     ];
 
     return (
