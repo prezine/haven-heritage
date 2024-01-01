@@ -2,9 +2,9 @@ import React from "react";
 // import { useState } from 'react'
 import '../../App.css'
 import '../../assets/css/font.css'
-import ClothingImage from '/product/product.jpg'
-import AccessoriesImage from '/product/product-2.jpg'
-import FootwareImage from '/product/product-3.jpg'
+import ClothingImage from '/images/product/product.jpg'
+import AccessoriesImage from '/images/product/product-2.jpg'
+import FootwareImage from '/images/product/product-3.jpg'
 
 function FeaturedProduct() {
     return (
