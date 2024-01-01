@@ -16,8 +16,10 @@ function App() {
       <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/product" element={<Product />} />
-          <Route path="/product:slug" element={<ProductDetail />} />
+          <Route path='/product' >
+            <Route path='' element={<Product />} />
+            <Route path=':slug' element={<ProductDetail />} />
+          </Route>
           <Route path="*" element={<Error404 />} />
         </Routes>
       <Footer />
