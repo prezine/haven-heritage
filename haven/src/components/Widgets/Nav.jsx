@@ -3,9 +3,9 @@ import { NavLink } from 'react-router-dom';
 import CartDropdown from './../Element/CartDropdown'
 // import { useState } from 'react'
 import '../../App.css'
-import Logo from './../../assets/images/logo.png'
-import userDP from './../../assets/images/avatar.jpg'
-import thumbnail from './../../assets/images/product/cart-product-1.png'
+import Logo from '/images/logo.png'
+import userDP from '/images/avatar.jpg'
+import thumbnail from '/images/product/cart-product-1.png'
 
 function Header() {
   const [isHidden, setIsHidden] = useState(true);

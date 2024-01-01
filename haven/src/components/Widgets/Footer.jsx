@@ -1,7 +1,7 @@
 import React from "react";
 // import { useState } from 'react'
 import '../../App.css'
-import Logo from './../../assets/images/footer-logo.png'
+import Logo from '/images/footer-logo.png'
 
 function Footer() {
   return (

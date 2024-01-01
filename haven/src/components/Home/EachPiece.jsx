@@ -2,7 +2,7 @@ import React from "react";
 // import { useState } from 'react'
 import '../../App.css'
 import '../../assets/css/font.css'
-import EachPieceImage from './../../assets/images/eachpiece.jpg'
+import EachPieceImage from '/images/eachpiece.jpg'
 
 function EachPiece() {
     return (

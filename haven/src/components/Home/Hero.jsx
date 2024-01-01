@@ -2,7 +2,7 @@ import React from "react";
 // import { useState } from 'react'
 import '../../App.css'
 import '../../assets/css/font.css'
-import HeroImage from './../../assets/images/hero-right.png'
+import HeroImage from '/images/hero-right.png'
 
 function Hero() {
   return (

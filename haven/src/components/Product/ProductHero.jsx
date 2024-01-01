@@ -1,7 +1,7 @@
 import React from "react";
 // import { useState } from 'react'
 import '../../App.css'
-import ProductHeroImage from './../../assets/images/product-hero.jpg'
+import ProductHeroImage from '/images/product-hero.jpg'
 
 function ProductHero() {
   return (

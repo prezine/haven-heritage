@@ -3,10 +3,10 @@ import React from "react";
 import Marquee from "react-fast-marquee";
 import '../../App.css'
 import '../../assets/css/font.css'
-import HopeImage from './../../assets/images/partners/hope 1.png'
-import ChildHopeImage from './../../assets/images/partners/download 1.png'
-import NgoImage from './../../assets/images/partners/images 2.png'
-import MamaImage from './../../assets/images/partners/3d4c4b3ee72b89c8287779387a15a7bb 1.png'
+import HopeImage from '/images/partners/hope 1.png'
+import ChildHopeImage from '/images/partners/download 1.png'
+import NgoImage from '/images/partners/images 2.png'
+import MamaImage from '/images/partners/3d4c4b3ee72b89c8287779387a15a7bb 1.png'
 
 function Featured() {
   return (

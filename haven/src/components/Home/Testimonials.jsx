@@ -6,9 +6,9 @@ import '../../App.css'
 import '../../assets/css/font.css'
 import TestimonialCard from './../Element/TestimonialCard.jsx'
 import Newsletters from './Newsletters.jsx'
-import Avatar1 from './../../assets/images/testimonials/Frame 107-1.png'
-import Avatar2 from './../../assets/images/testimonials/Frame 107-2.png'
-import Avatar3 from './../../assets/images/testimonials/Frame 107.png'
+import Avatar1 from '/images/testimonials/Frame 107-1.png'
+import Avatar2 from '/images/testimonials/Frame 107-2.png'
+import Avatar3 from '/images/testimonials/Frame 107.png'
 
 function Testimonials() {
     const testimonialData = [
