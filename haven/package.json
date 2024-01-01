@@ -11,17 +11,20 @@
   },
   "dependencies": {
     "@types/react-router": "^5.1.20",
+    "ajv": "^6.12.6",
     "gsap": "^3.11.5",
     "jquery": "^3.6.3",
     "number-formatter": "^1.2.0",
     "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-fast-marquee": "^1.6.2",
+    "react-html-id": "^0.1.5",
     "react-rating": "^2.0.5",
     "swiper": "^11.0.5"
   },
   "devDependencies": {
-    "@types/react": "^18.2.43",
-    "@types/react-dom": "^18.2.17",
+    "@types/react": "^18.2.46",
+    "@types/react-dom": "^18.2.18",
     "@typescript-eslint/eslint-plugin": "^6.14.0",
     "@typescript-eslint/parser": "^6.14.0",
     "@vitejs/plugin-react": "^4.2.1",
