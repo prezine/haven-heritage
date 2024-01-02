@@ -8,11 +8,12 @@ function ProductDetail() {
   const navigate = useNavigate();
   const { slug } = useParams();
   const productDetail = () => {
-    let singleBlog = [];
+    // let singleBlog = [];
     {Products && Products.map((product, index) => (
       product.slug === slug ? product : null
     ))}
   }
+
   return (
     <>
       <h1 className="text-brandGray900">

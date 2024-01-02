@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 const ProductCard = ({ slug, image, title, amount, rating, reviewscount, category, avatar, name }) => {
     return (
-        <Link to={`${slug}`}>
+        <Link to={`/product/${slug}`}>
             <div className="bg-white text-left pb-8" data-category={category}>
                 <img src={`${image}`} className='w-full lg:h-60 h-44 object-cover' alt="" />
                 <p className='font-PlusJakartaSansMedium text-brandGray900 mt-2 text-sm'>{title}</p>

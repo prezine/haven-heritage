@@ -36,7 +36,7 @@ function Header() {
 
   return (
     <>
-        <nav className="w-full flex items-center justify-between flex-wrap p-12">
+        <nav className="w-full flex items-center justify-between flex-wrap lg:p-12 p-6">
           <div id="menu" data-mobile-nav-open="no" className="z-50 absolute xl:static h-auto -translate-y-twoHundredPercent xl:-translate-y-0 xl:h-auto opacity-0 xl:opacity-100 xl:py-0 top-24 left-0 bg-white transition-all ease-linear duration-500 shadow-md xl:shadow-none gap-20 xl:bg-transparent flex flex-col xl:flex-row justify-between items-center w-full">
             <div className="flex items-center flex-shrink-0 mr-6">
               <NavLink to="/"><img src={Logo} alt="" /></NavLink>
@@ -65,7 +65,7 @@ function Header() {
             </div> */}
 
             <div className="flex items-center flex-shrink-0 mr-6 space-x-8">
-              <div id="trigger-cart-widget" onClick={toggleCart} className="relative cursor-pointer">
+              <div onClick={toggleCart} className="relative cursor-pointer trigger-cart-widget">
                 <svg width="27" height="28" viewBox="0 0 27 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M9 18.5L18.8101 17.6825C21.8797 17.4268 22.5687 16.7563 22.9089 13.695L23.625 7.25" stroke="black" stroke-width="1.6875" stroke-linecap="round"/>
                   <path d="M6.75 7.25H24.75" stroke="black" stroke-width="1.6875" stroke-linecap="round"/>
@@ -80,11 +80,12 @@ function Header() {
                 </span>
               </div>
 
-              <img src={userDP} id="trigger-profile-widget" onClick={toggleProfile} className="cursor-pointer" alt="" />
+              <img src={userDP} onClick={toggleProfile} className="cursor-pointer trigger-profile-widget" alt="" />
             </div>
+          </div>
 
-            {/* Dropdown Section for Cart */}
-            <div id="cart-widget" className={`${isVisible ? 'hidden' : ''} w-72 bg-brandGray50 rounded-md shadow-sm h-460 right-0 top-20 absolute p-5 text-left`}>
+          {/* Dropdown Section for Cart */}
+          <div id="cart-widget" className={`${isVisible ? 'hidden' : ''} w-72 bg-brandGray50 rounded-md shadow-sm h-460 right-5 lg:top-32 top-20 absolute p-5 text-left`}>
               <p className="text-brandGray600 font-PlusJakartaSansMedium text-sm mb-4">My cart</p>
               {cartData.map((cart, index) => (
                 <CartDropdown key={index} thumbnail={cart.thumbnail} title={cart.title} amount={cart.amount} rating={cart.rating} reviewscount={cart.reviewscount} />
@@ -97,7 +98,7 @@ function Header() {
             </div>
 
             {/* Dropdown Section for Profile */}
-            <div className={`w-72 bg-brandGray50 rounded-md shadow-sm h-254 right-0 top-20 absolute p-5 text-left ${isHidden ? 'hidden' : ''}`}>
+            <div className={`w-72 bg-brandGray50 rounded-md shadow-sm h-254 right-5 lg:top-32 top-20 absolute p-5 text-left ${isHidden ? 'hidden' : ''}`}>
               <p className=" text-brandGray300 font-PlusJakartaSansMedium text-sm mb-4">Logged in as Tom,</p>
               <div className=" space-y-2">
                 <span className="flex space-x-2 pb-2">
@@ -128,7 +129,6 @@ function Header() {
                 <button className="bg-brandRed text-white font-PlusJakartaSansBold w-full py-2 rounded-sm">Log out</button>
               </div>
             </div>
-          </div>
 
           {/* Mobile Desig Dropdown */}
           <div className={`bg-brandGray50 z-70 rounded-md shadow-sm w-full h-254 right-0 top-24 absolute p-12 text-left ${isDropDown ? 'hidden' : ''}`}>
@@ -140,17 +140,35 @@ function Header() {
             </span>
           </div>
         
-          <div class="flex justify-between w-full xl:hidden">
+          <div class="flex justify-between items-center w-full xl:hidden">
+            <button id="hamburger" onClick={toggleHamburger} title="Open Mobile Menu" type="button" className="space-y-1 group cursor-pointer">
+              <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4.52734 5.57129H14.9665" stroke="black" stroke-width="1.56588" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M4.52734 12.8784H21.23" stroke="black" stroke-width="1.56588" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M4.52734 20.186H21.23" stroke="black" stroke-width="1.56588" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </button>
+            
             <div className="flex items-center flex-shrink-0 mr-6">
-              <NavLink to="/"><img src={Logo} alt="" /></NavLink>
+              <NavLink to="/"><img src={Logo} className="h-7" alt="" /></NavLink>
             </div>
 
-            <button id="hamburger" onClick={toggleHamburger} title="Open Mobile Menu" type="button" className="space-y-1 group cursor-pointer">
-                <div class="h-1 w-8 hamburger-line bg-black rounded-lg group-hover:bg-brandBlue transition-all ease-linear duration-300"></div>
-                <div class="h-1 w-8 hamburger-line bg-black rounded-lg group-hover:bg-brandBlue transition-all ease-linear duration-300"></div>
-                <div class="h-1 w-8 hamburger-line bg-black rounded-lg group-hover:bg-brandBlue transition-all ease-linear duration-300"></div>
-                <p class="sr-only">Open Mobile Menu</p>
-            </button>
+            <div onClick={toggleCart} className="relative cursor-pointer trigger-cart-widget">
+              <svg width="27" height="28" viewBox="0 0 27 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9 18.5L18.8101 17.6825C21.8797 17.4268 22.5687 16.7563 22.9089 13.695L23.625 7.25" stroke="black" stroke-width="1.6875" stroke-linecap="round"/>
+                <path d="M6.75 7.25H24.75" stroke="black" stroke-width="1.6875" stroke-linecap="round"/>
+                <path d="M6.75 25.25C7.99264 25.25 9 24.2426 9 23C9 21.7574 7.99264 20.75 6.75 20.75C5.50736 20.75 4.5 21.7574 4.5 23C4.5 24.2426 5.50736 25.25 6.75 25.25Z" stroke="black" stroke-width="1.6875"/>
+                <path d="M19.125 25.25C20.3676 25.25 21.375 24.2426 21.375 23C21.375 21.7574 20.3676 20.75 19.125 20.75C17.8824 20.75 16.875 21.7574 16.875 23C16.875 24.2426 17.8824 25.25 19.125 25.25Z" stroke="black" stroke-width="1.6875"/>
+                <path d="M9 23H16.875" stroke="black" stroke-width="1.6875" stroke-linecap="round"/>
+                <path d="M2.25 2.75H3.33675C4.39952 2.75 5.32591 3.45266 5.58367 4.4543L8.93083 17.4611C9.09998 18.1184 8.95523 18.8147 8.53677 19.3568L7.46115 20.75" stroke="black" stroke-width="1.6875" stroke-linecap="round"/>
+              </svg>
+
+              <span class="bg-red-500 text-white rounded-full w-6 h-6 flex items-center justify-center absolute top-0 right-0 -mt-3 -mr-3">
+                <span class="text-xs font-bold">3</span>
+              </span>
+            </div>
+
+            <img src={userDP} onClick={toggleProfile} className="cursor-pointer trigger-profile-widget" alt="" />
           </div>
         </nav>
     </>
